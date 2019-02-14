@@ -229,3 +229,10 @@ nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
         display: none;
     }
 }
+
+@media (max-width: 765px){
+    .share{
+        display: none;
+        /*display: table-column;*/
+    }
+}
