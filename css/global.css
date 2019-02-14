@@ -230,9 +230,27 @@ nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
     }
 }
 
-@media (max-width: 765px){
+/*Small devices*/
+@media (max-width: 767.98px){
     .share{
         display: none;
         /*display: table-column;*/
+    }
+    .container-fluid{
+        font-size: 1400px;
+    }
+}
+
+/*Tablet*/
+@media (max-width: 991.98px){
+    .container-fluid{
+        font-size: 600px;
+    }
+}
+
+/*PC*/
+@media (max-width: 1199.98px){
+    .container-fluid{
+        font-size: 450px;
     }
 }
