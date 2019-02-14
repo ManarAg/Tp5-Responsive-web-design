@@ -223,3 +223,8 @@ nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
     }
 }
 
+@media (orientation: portrait){
+    .user{
+        display: none;
+    }
+}
