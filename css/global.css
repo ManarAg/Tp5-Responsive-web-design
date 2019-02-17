@@ -99,12 +99,11 @@ h1 {
     margin-left: 0.75em;
 }
 
-
 .stats-links {
     color: #4b5c66;
     font-size: 0.75em;
     padding: 15px 0px 10px 0px;
-    border-bottom: 1px solid #e1e6e9;
+    border-bottom: 1px solid #0a5a88;
     margin-bottom: 20px;
 }
 
@@ -119,7 +118,7 @@ h1 {
 .stats-links a {
     font-size: 1em;
     font-weight: normal;
-    color: #4b5c66;
+    color: #514b66;
 }
 
 h2 {
@@ -234,23 +233,23 @@ nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
 @media (max-width: 767.98px){
     .share{
         display: none;
-        /*display: table-column;*/
     }
-    .container-fluid{
+    /*.container-fluid{
         font-size: 1400px;
-    }
+    }*/
 }
 
 /*Tablet*/
-@media (max-width: 991.98px){
-    .container-fluid{
+@media (min-width: 768px) and (max-width: 991.98px){
+    /*.container-fluid{
         font-size: 600px;
-    }
+    }*/
 }
 
 /*PC*/
-@media (max-width: 1199.98px){
-    .container-fluid{
+@media (min-width: 992px) and (max-width: 1199.98px){
+    /*.container-fluid{
         font-size: 450px;
-    }
+    }*/
 }
+
