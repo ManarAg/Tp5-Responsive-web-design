@@ -234,6 +234,9 @@ nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
     .share{
         display: none;
     }
+    .col-5{
+        display: none;
+    }
     /*.container-fluid{
         font-size: 1400px;
     }*/
